@@ -189,7 +189,7 @@ export default function ExperienceSection() {
             {techCategories.map((cat, i) => (
               <div
                 key={i}
-                className="relative group bg-zinc-950/80 border border-dashed border-zinc-800/90 p-4 space-y-3 hover:border-zinc-700 transition-all duration-300"
+                className="relative group bg-zinc-950/80 border border-dashed border-zinc-800/90 p-4 flex flex-col gap-3 hover:border-zinc-700 transition-all duration-300"
               >
                 {/* Corner Brackets */}
                 <span className="absolute -top-[1px] -left-[1px] w-2.5 h-2.5 border-t-2 border-l-2 border-zinc-400 group-hover:border-white transition-colors z-20" />

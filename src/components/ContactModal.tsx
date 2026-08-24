@@ -33,7 +33,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200">
-      <div className="relative group w-full max-w-lg bg-zinc-950 border border-dashed border-zinc-800 p-6 sm:p-8 space-y-6 shadow-2xl">
+      <div className="relative group w-full max-w-lg bg-zinc-950 border border-dashed border-zinc-800 p-6 sm:p-8 flex flex-col gap-6 shadow-2xl">
         {/* Corner Brackets */}
         <span className="absolute -top-[1px] -left-[1px] w-2.5 h-2.5 border-t-2 border-l-2 border-zinc-400 group-hover:border-white transition-colors z-20" />
         <span className="absolute -top-[1px] -right-[1px] w-2.5 h-2.5 border-t-2 border-r-2 border-zinc-400 group-hover:border-white transition-colors z-20" />
@@ -121,7 +121,7 @@ export default function ContactSection({ onOpenContact }: { onOpenContact: () =>
   return (
     <section id="contact" className="py-20 bg-black relative border-t border-zinc-900">
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
-        <div className="relative group bg-zinc-950 border border-dashed border-zinc-800 p-8 sm:p-12 text-center space-y-6">
+        <div className="relative group bg-zinc-950 border border-dashed border-zinc-800 p-8 sm:p-12 text-center flex flex-col items-center gap-6">
           {/* Corner Brackets */}
           <span className="absolute -top-[1px] -left-[1px] w-2.5 h-2.5 border-t-2 border-l-2 border-zinc-400 group-hover:border-white transition-colors z-20" />
           <span className="absolute -top-[1px] -right-[1px] w-2.5 h-2.5 border-t-2 border-r-2 border-zinc-400 group-hover:border-white transition-colors z-20" />

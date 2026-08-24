@@ -82,7 +82,7 @@ export default function Hero({ onOpenContact }: HeroProps) {
           {/* Left Column (7 cols) */}
           <div className="col-span-7 space-y-2 sm:space-y-4 font-mono text-xs sm:text-sm text-zinc-300 leading-relaxed flex flex-col justify-center">
             <p className="text-[11px] sm:text-sm leading-normal sm:leading-relaxed">
-              I’m a software engineer and builder who enjoys taking ideas from a blank screen to production. I care about understanding how things work under the hood, solving problems that don’t have obvious answers, and continuously pushing the quality of what I build. I’m happiest when I’m learning something new, building something challenging, and shipping it to real users.
+              I&apos;m a software engineer and builder who enjoys taking ideas from a blank screen to production. I care about understanding how things work under the hood. I&apos;m happiest when I&apos;m learning something new, building something challenging, and shipping it to real users.
             </p>
             <p className="hidden sm:block text-xs text-zinc-400">
               Available for full-time roles, contract work, and freelance projects. Reach out via email or connect below.
@@ -153,12 +153,12 @@ export default function Hero({ onOpenContact }: HeroProps) {
         </div>
 
         {/* GitHub Graph Container inside Flow with Corner Brackets */}
-        <div className="relative group bg-zinc-950/80 border border-dashed border-zinc-800 p-4 space-y-3 transition-colors hover:border-zinc-700">
+        <div className="relative group bg-zinc-950/80 border border-dashed border-zinc-800 p-4 flex flex-col gap-3 transition-colors hover:border-zinc-700">
           {/* Corner Brackets */}
-          <span className="absolute -top-[1px] -left-[1px] w-2.5 h-2.5 border-t-2 border-l-2 border-zinc-400 group-hover:border-white transition-colors" />
-          <span className="absolute -top-[1px] -right-[1px] w-2.5 h-2.5 border-t-2 border-r-2 border-zinc-400 group-hover:border-white transition-colors" />
-          <span className="absolute -bottom-[1px] -left-[1px] w-2.5 h-2.5 border-b-2 border-l-2 border-zinc-400 group-hover:border-white transition-colors" />
-          <span className="absolute -bottom-[1px] -right-[1px] w-2.5 h-2.5 border-b-2 border-r-2 border-zinc-400 group-hover:border-white transition-colors" />
+          <span className="absolute -top-[1px] -left-[1px] w-2.5 h-2.5 border-t-2 border-l-2 border-zinc-400 group-hover:border-white transition-colors z-20" />
+          <span className="absolute -top-[1px] -right-[1px] w-2.5 h-2.5 border-t-2 border-r-2 border-zinc-400 group-hover:border-white transition-colors z-20" />
+          <span className="absolute -bottom-[1px] -left-[1px] w-2.5 h-2.5 border-b-2 border-l-2 border-zinc-400 group-hover:border-white transition-colors z-20" />
+          <span className="absolute -bottom-[1px] -right-[1px] w-2.5 h-2.5 border-b-2 border-r-2 border-zinc-400 group-hover:border-white transition-colors z-20" />
 
           <div className="flex items-center justify-between gap-2 text-xs font-mono text-zinc-400 border-b border-zinc-900 pb-2">
             <div className="flex items-center gap-1.5 min-w-0">
